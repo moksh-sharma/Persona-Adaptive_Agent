@@ -1,0 +1,59 @@
+:root {
+  --font-ui: "DM Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --color-bg-deep: #090e17;
+  --color-text: #e8ecf2;
+  --color-text-muted: #94a3b8;
+  --color-accent: #3b82f6;
+  --color-accent-2: #8b5cf6;
+  --color-glass-bg: rgba(15, 23, 42, 0.65);
+  --color-glass-border: rgba(255, 255, 255, 0.08);
+  --radius-lg: 20px;
+  --radius-md: 14px;
+  --radius-sm: 10px;
+  --shadow-elevated: 0 24px 64px rgba(0, 0, 0, 0.4);
+
+  font-family: var(--font-ui);
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--color-text);
+  background-color: var(--color-bg-deep);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(59, 130, 246, 0.35);
+  color: #f8fafc;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(1000px 800px at 10% 0%, rgba(59, 130, 246, 0.14), transparent),
+    radial-gradient(800px 600px at 90% 12%, rgba(139, 92, 246, 0.1), transparent),
+    radial-gradient(900px 700px at 50% 100%, rgba(14, 165, 233, 0.07), transparent),
+    var(--color-bg-deep);
+  background-attachment: fixed;
+}
+
+#root {
+  min-height: 100vh;
+}
