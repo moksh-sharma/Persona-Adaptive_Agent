@@ -50,9 +50,9 @@ This project wires **persona inference (rules)** - KB retrieval + context packin
 └----------┬-----------┘
            │
            ▼
-┌----------------------┐     optional        ┌----------------------┐
+┌----------------------┐     optional       ┌----------------------┐
 │ chatbot.run_chat_turn│ ---- Ollama chat   │ llm_service          │
-│ + response_generator │ ◀-----------------│ call_ollama_chat()   │
+│ + response_generator │ ◀----------------- │ call_ollama_chat()   │
 │   (rule fallback)    │                    │ /api/chat            │
 └----------┬-----------┘                    └----------------------┘
            │
