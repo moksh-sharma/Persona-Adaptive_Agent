@@ -1,0 +1,261 @@
+{
+  "version": 1,
+  "source": "backend/kb_articles.py",
+  "article_count": 17,
+  "articles": [
+    {
+      "id": "login-issue",
+      "title": "Login Issue",
+      "file": "articles/login-issue.md",
+      "keywords": [
+        "login",
+        "sign in",
+        "signin",
+        "password",
+        "credential",
+        "locked",
+        "forgot password",
+        "cannot access",
+        "session",
+        "logout",
+        "mfa",
+        "2fa"
+      ]
+    },
+    {
+      "id": "api-authentication-error",
+      "title": "API Authentication Error",
+      "file": "articles/api-authentication-error.md",
+      "keywords": [
+        "401",
+        "403",
+        "api",
+        "token",
+        "oauth",
+        "bearer",
+        "authentication",
+        "authorization",
+        "key",
+        "webhook",
+        "integration",
+        "endpoint",
+        "rate limit"
+      ]
+    },
+    {
+      "id": "billing-issue",
+      "title": "Billing Issue",
+      "file": "articles/billing-issue.md",
+      "keywords": [
+        "invoice",
+        "bill",
+        "billing",
+        "payment",
+        "charge",
+        "subscription",
+        "plan",
+        "refund",
+        "credit card"
+      ]
+    },
+    {
+      "id": "service-downtime",
+      "title": "Service Downtime",
+      "file": "articles/service-downtime.md",
+      "keywords": [
+        "down",
+        "outage",
+        "downtime",
+        "status",
+        "unavailable",
+        "500",
+        "503",
+        "service unavailable",
+        "incident"
+      ]
+    },
+    {
+      "id": "account-access-issue",
+      "title": "Account Access Issue",
+      "file": "articles/account-access-issue.md",
+      "keywords": [
+        "access",
+        "permission",
+        "role",
+        "admin",
+        "workspace",
+        "organization",
+        "sso",
+        "scim",
+        "provision",
+        "invite",
+        "member"
+      ]
+    },
+    {
+      "id": "data-sync-issue",
+      "title": "Data Sync Issue",
+      "file": "articles/data-sync-issue.md",
+      "keywords": [
+        "sync",
+        "synchronization",
+        "delay",
+        "missing data",
+        "connector",
+        "import",
+        "export",
+        "etl",
+        "reconciliation",
+        "duplicate",
+        "latency",
+        "queued"
+      ]
+    },
+    {
+      "id": "password-reset-and-recovery",
+      "title": "Password Reset and Recovery",
+      "file": "articles/password-reset-and-recovery.md",
+      "keywords": [
+        "reset password",
+        "forgot",
+        "recovery",
+        "reset link",
+        "email link",
+        "did not receive"
+      ]
+    },
+    {
+      "id": "mobile-app-issues",
+      "title": "Mobile App Issues",
+      "file": "articles/mobile-app-issues.md",
+      "keywords": [
+        "mobile",
+        "iphone",
+        "android",
+        "ios",
+        "tablet",
+        "app crash",
+        "app store",
+        "play store"
+      ]
+    },
+    {
+      "id": "email-notifications",
+      "title": "Email Notifications",
+      "file": "articles/email-notifications.md",
+      "keywords": [
+        "email",
+        "notification",
+        "not receiving emails",
+        "digest",
+        "alert",
+        "smtp",
+        "bounce"
+      ]
+    },
+    {
+      "id": "exports-and-reporting",
+      "title": "Exports and Reporting",
+      "file": "articles/exports-and-reporting.md",
+      "keywords": [
+        "export",
+        "csv",
+        "report",
+        "download",
+        "analytics",
+        "metrics",
+        "snowflake",
+        "spreadsheet"
+      ]
+    },
+    {
+      "id": "privacy-and-data-requests",
+      "title": "Privacy and Data Requests",
+      "file": "articles/privacy-and-data-requests.md",
+      "keywords": [
+        "privacy",
+        "gdpr",
+        "delete my data",
+        "export my data",
+        "dsar",
+        "compliance personal data"
+      ]
+    },
+    {
+      "id": "vpn-firewall-and-network-access",
+      "title": "VPN, Firewall and Network Access",
+      "file": "articles/vpn-firewall-and-network-access.md",
+      "keywords": [
+        "vpn",
+        "firewall",
+        "proxy",
+        "network",
+        "blocked",
+        "egress ip",
+        "websocket",
+        "corporate network"
+      ]
+    },
+    {
+      "id": "browser-and-compatibility",
+      "title": "Browser and Compatibility",
+      "file": "articles/browser-and-compatibility.md",
+      "keywords": [
+        "browser",
+        "chrome",
+        "safari",
+        "firefox",
+        "edge",
+        "blank page",
+        "javascript",
+        "cookies",
+        "compatible"
+      ]
+    },
+    {
+      "id": "changing-plans-and-seats",
+      "title": "Changing Plans and Seats",
+      "file": "articles/changing-plans-and-seats.md",
+      "keywords": [
+        "upgrade",
+        "downgrade",
+        "seats",
+        "license",
+        "plan change",
+        "add user",
+        "remove user"
+      ]
+    },
+    {
+      "id": "feature-requests-and-roadmap",
+      "title": "Feature Requests and Roadmap",
+      "file": "articles/feature-requests-and-roadmap.md",
+      "keywords": [
+        "feature request",
+        "roadmap",
+        "when will you",
+        "enhancement suggestion",
+        "wishlist"
+      ]
+    },
+    {
+      "id": "trial-and-sandbox",
+      "title": "Trial and Sandbox",
+      "file": "articles/trial-and-sandbox.md",
+      "keywords": [
+        "trial",
+        "sandbox",
+        "poc",
+        "demo environment",
+        "trial expired"
+      ]
+    },
+    {
+      "id": "general-support",
+      "title": "General Support",
+      "file": "articles/general-support.md",
+      "keywords": [],
+      "fallback": true
+    }
+  ]
+}
