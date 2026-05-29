@@ -1,6 +1,6 @@
 # Persona Support Agent
 
-A **KB-grounded support chatbot** prototype for an AI Intern assignment: it retrieves relevant in-memory Help Center articles (often several at once), routes tone using **keyword-only personas**, optionally calls **Ollama** (`/api/chat`) to elaborate answers while staying anchored to KB facts, then **falls back cleanly** to rule templates if the LLM is off or errors.
+A **KB-grounded support chatbot** prototype: it retrieves relevant in-memory Help Center articles (often several at once), routes tone using **keyword-only personas**, optionally calls **Ollama** (`/api/chat`) to elaborate answers while staying anchored to KB facts, then **falls back cleanly** to rule templates if the LLM is off or errors.
 
 ---
 
